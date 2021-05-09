@@ -1,0 +1,79 @@
+.pdf-button-container{
+    display:flex;
+    flex-direction: column;
+}
+
+#pdf-icon{
+    font-size:40px;
+    color: red;
+    float:right;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.resume-template-main-container {
+    width: 8.25in;
+    height: 11.75in;
+    padding: 20mm;
+    border: 1px solid;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.resume-container{
+    gap :20px;
+    display:grid;
+    grid-template-rows: auto;
+}
+
+.objective-container{
+    display:grid;
+    grid-template-rows: auto;
+    gap: 7px;
+}
+.title-heading{
+    font-size:20px;
+    font-weight:900;
+}
+
+.education-container{
+    display:grid;
+    grid-template-rows: auto;
+    gap: 7px;
+}
+.education-body{
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+.education-body-right{
+    display:grid;
+    grid-template-rows: auto;
+    gap: 7px;
+}
+.project-container{
+    display: grid;
+    gap:15px;
+}
+.project-body{
+    display: grid;
+    gap:25px;
+}
+.project-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.company-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.designation-text{
+    font-style: italic;
+
+}
+.description-box{
+    width:95%;
+    height: auto;
+    overflow: hidden;
+    word-wrap:break-word;
+
+}

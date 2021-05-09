@@ -1,0 +1,8 @@
+.App {
+  height:100vh;
+  width:100%;
+  background-image:url('./images/PicsArt_04-21-06.31.41.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

@@ -1,0 +1,30 @@
+.nav-container{
+    background-color:rgb(164, 186, 201);
+    display:flex;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 2px blanchedalmond;
+    
+    
+}
+.nav-content-right{
+    font-style: oblique;
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 10px 0 0 2%;
+}
+.nav-content-right:hover{
+    color:blue;
+}
+.nav-content-left:hover{
+    color:blue;
+}
+
+.nav-content-left{
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 10px 0 0 0;
+    margin-left:65%;
+}
