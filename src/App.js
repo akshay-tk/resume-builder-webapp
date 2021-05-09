@@ -13,7 +13,7 @@ const store =createStore(allReducers)
 function App() {
   return (
     <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={"https://akshay-tk.github.io/resume-builder-webapp"}>
     <div className="App">
      <Switch>
        <Route path="/" component={Home} exact/>
